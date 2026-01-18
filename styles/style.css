@@ -1,0 +1,100 @@
+#hero-section{
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1600px;
+    height: 760px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.hero-circle{
+    position: absolute;
+    left: auto;
+    top: 130px;
+    align-items: center;
+}
+.microphone{
+    position: absolute;
+    left: auto;
+    top: 205px;
+    justify-content: center;
+    display: flex;
+
+}
+.hero-text{
+    margin-top: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.hero-text h1, p {
+    text-align: center;
+}
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    margin-top: 32px;
+}
+.hero-text p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 16px;
+}
+.button-group{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+#button-primary{
+    padding: 12px 16px !important;
+    text-align: center !important;
+    
+}
+#button-secondary{
+    padding: 12px 16px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid #00FF88;
+    border-radius: 40px;
+    font-size: 16px;
+}
+.about-section {
+    background-color: #1A0B2E;
+    color: white;
+    text-align: center;
+}
+.about-section h1 {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+.about-section p {
+    font-size: 16px;
+}
+.line{
+  margin: 80px 100px;
+  color: #E5E7EB;
+  opacity: 10%;
+  height: .05px;
+  border: none;
+
+ 
+}
+.stats-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1A0B2E;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.stats h2 {
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: 700;
+}
