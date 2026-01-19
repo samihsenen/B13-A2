@@ -11,7 +11,7 @@
 <body>
     <header>
        <nav>
-        <div class="flex justify-around bg-[#412567]">
+        <div class="flex justify-around bg-[#1A0B2E]">
             <h1 class="text-2xl font-extrabold">
                     <span class="text-white">Tech</span>
                     <span class="bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text
@@ -25,26 +25,37 @@
                 <li a="">Host</li>
             </ul>
             <button class="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600
-            text-white font-semibold rounded-full text-xs p-1">Subscribe</button>
+            text-white font-semibold rounded-full text-xs p-1 bg-blue-600 text-white px-6 py-3 rounded-full 
+               transition-all duration-300 ease-in-out 
+               hover:scale-105 hover:shadow-xl active:scale-95">Subscribe →</button>
         </div>
        </nav>
         
         
         <section id="hero-section" >
+            <div id="new" class="bg-[#00FF88] text-black font-bold px-8 py-3 rounded-full 
+               shadow-[0_0_20px_#00FF88] hover:shadow-[0_0_40px_#00FF88] 
+               transition-shadow duration-300">
+                <button>NEW</button>
+            </div>
             <div class="hero-circle">
-                <img src="assets/hero-circle.png" alt="">
+                <img src="assets/hero-circle.png" alt="" class="animate-spin">
             </div>
             <div class="microphone">
-                <img src="assets/microphone.png" alt="">
+                <img src="assets/microphone.png" alt="" >
             </div>
             <div class="hero-text">
                 <h1>TechWave</h1>
                 <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
                 <div class="button-group">
-                    <button id="button-primary" class="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 text-white font-semibold rounded-full text-s">
-                        <i class="fa-brands fa-spotify"> Listen on Spotify</i>
+                    <button id="button-primary" class="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 text-white font-semibold rounded-full  text-s bg-blue-600 text-white px-6 py-3 rounded-full 
+               transition-all duration-300 ease-in-out 
+               hover:scale-105 hover:shadow-xl active:scale-95">
+                        <span><img src="assets/spotify.png" alt=""></span>Listen on Spotify
                     </button>
-                    <button id="button-secondary" class=""><i class="fa-regular fa-envelope"> Subscribe</i></button>
+                    <button id="button-secondary" class="bg-blue-600 text-white px-6 py-3 rounded-lg 
+               transition-all duration-300 ease-in-out 
+               hover:scale-105 hover:shadow-xl active:scale-95"><span><img src="assets/message.png" alt=""></span>Subscribe</button>
                 </div>
             </div>
         </section>
@@ -55,9 +66,12 @@
         <section class="about-section">
             <h1>About The Podcast</h1>
             <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>We break down complex topics into digestible insights, explore productivity strategies that actually work, <br>and share stories of personal growth from industry leaders. <br> <br> Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
-            <div><hr class="line"></div>
-           
         </section>
+
+        <div class="line-box">
+            <hr class="line">
+        </div>
+        
         <section class="stats-container">
              <div class="stats">
                 <h2>150K+</h2>
@@ -78,27 +92,37 @@
         </section>
         <section class="card-container">
             <div id="card-text"><h2>Why Choose Us</h2></div>
-            <div id="audio">
+            <div id="audio" class="bg-blue-600 text-white px-6 py-3 rounded-md 
+               transition-transform duration-300 
+               hover:scale-110">
                 <img src="assets/headphone.png" alt="">
                 <h5>Premium Audio Quality</h5>
                 <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
             </div>
-            <div id="mobile">
+            <div id="mobile" class="bg-blue-600 text-white px-6 py-3 rounded-md 
+               transition-transform duration-300 
+               hover:scale-110">
                 <img src="assets/device.png" alt="">
                 <h5>Mobile Friendly</h5>
                 <p>Listen on the go with seamless mobile experience and offline downloads.</p>
             </div>
-            <div id="global">
+            <div id="global" class="bg-blue-600 text-white px-6 py-3 rounded-md 
+               transition-transform duration-300 
+               hover:scale-110">
                 <img src="assets/location.png" alt="">
                 <h5>Global Community</h5>
                 <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
             </div>
-            <div id="exclusive">
+            <div id="exclusive" class="bg-blue-600 text-white px-6 py-3 rounded-md 
+               transition-transform duration-300 
+               hover:scale-110">
                 <img src="assets/speed.png" alt="">
                 <h5>Exclusive Interviews</h5>
                 <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
             </div>
-            <div id="rich">
+            <div id="rich" class="bg-blue-600 text-white px-6 py-3 rounded-md 
+               transition-transform duration-300 
+               hover:scale-110">
                 <img src="assets/resource.png" alt="">
                 <h5>Rich Resources</h5>
                 <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
@@ -116,7 +140,7 @@
                     </div>
                     <h2>The Future of AI in Everyday Life</h2>
                     <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-                    <div class="clock">
+                    <div class="clock" >
                         <img src="assets/clock.png" alt="">
                         <p>42min</p>
                     </div>
@@ -133,7 +157,7 @@
                         <p>35min</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" >
                     <div class="image-btn">
                         <a href=""><img src="assets/Rectangle 1 (2).png" alt=""> <img class="play-btn" src="assets/Group 9.png" alt=""></a>
                     </div>
@@ -154,20 +178,21 @@
             <section class="host">
                 <div class="host-img"><img src="assets/host.png" alt=""></div>
                     <div class="host-card">
-                    <h2>Alex Kumar</h2>
-                    <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
-                    <div class="host-social">
-                        <div>
-                            <img src="assets/linkedin.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/x.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/instagram.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/youtube.png" alt="">
+                        <h2>Alex Kumar</h2>
+                        <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                        <div class="host-social">
+                            <div>
+                                <img src="assets/linkedin.png" alt="">
+                            </div>
+                            <div>
+                                    <img src="assets/x.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/instagram.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/youtube.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
