@@ -392,6 +392,7 @@
         width: 100%;
     }
     .navbar div {
+        
         flex-wrap: wrap;
         padding: 10px;
         justify-content: space-between;
@@ -399,6 +400,12 @@
     
     .navbar h1 {
         font-size: 20px; 
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar button{
+        display: none;
     }
     #hero-section {
         height: auto;
